@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.button {
+  margin-top: 10px;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: blueviolet;
+  color: #FFFFFF;
+  font-weight: 900;
+  border: none;
+}
