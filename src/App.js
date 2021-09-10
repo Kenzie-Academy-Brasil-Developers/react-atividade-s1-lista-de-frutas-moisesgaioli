@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from "react";
-
+import FruitList from "./components/FruitList"
 
 function App() {
 
@@ -34,9 +34,7 @@ function App() {
 
     <h3 className="title">Preço total = {totalPrice}</h3>
     
-    <ul className="list">
-      {fruits.map((item, index) => <li key={index}>{item.name}</li> )}
-    </ul>
+    <FruitList fruits={fruits} />
 
     <button className="button" onClick={filterRedFruits}> Filtrar frutas vermelhas </button>
 
